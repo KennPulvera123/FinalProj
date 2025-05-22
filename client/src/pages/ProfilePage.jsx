@@ -31,8 +31,7 @@ export default function ProfilePage() {
     }
   }
 
-  // When user changes, update local form state
-  // (Prevents old values on profile switch)
+
   React.useEffect(() => {
     setName(user?.name || "");
     setEmail(user?.email || "");

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import api from "../axios";
-import BookingWidget from "../BookingWidget"; // <-- Add this import
+import BookingWidget from "../BookingWidget"; 
 
 export default function PlacePage() {
   const { id } = useParams();

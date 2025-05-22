@@ -5,7 +5,7 @@ const axiosInstance = axios.create({
   withCredentials: true,
 });
 
-// Optional logging for debugging
+
 axiosInstance.interceptors.request.use((config) => {
   console.log(`📤 [Request] ${config.method.toUpperCase()} to ${config.url}`, config.data);
   return config;

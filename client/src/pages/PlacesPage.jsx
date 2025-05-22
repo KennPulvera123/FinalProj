@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import AccountNav from "../AccountNav";
 import { useEffect, useState } from "react";
-import api from "../axios";  // ✅ Use configured axios instance
+import api from "../axios";  
 
 export default function PlacesPage() {
   const [places, setPlaces] = useState([]);

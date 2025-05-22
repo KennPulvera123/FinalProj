@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import api from "./axios";  // Ensure this is correct
+import api from "./axios";  
 
 export default function PlacesPage() {
   const [places, setPlaces] = useState([]);

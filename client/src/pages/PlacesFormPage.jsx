@@ -25,7 +25,7 @@ export default function PlacesFormPage() {
       const { data } = response;
       setTitle(data.title);
       setAddress(data.address);
-      setAddedPhotos(data.photos || []);  // ensure photos
+      setAddedPhotos(data.photos || []);  
       setDescription(data.description);
       setPerks(data.perks);
       setExtraInfo(data.extraInfo);
@@ -58,7 +58,7 @@ export default function PlacesFormPage() {
     const placeData = {
       title,
       address,
-      photos: addedPhotos,   // rename to match schema
+      photos: addedPhotos,   
       description,
       perks,
       extraInfo,
